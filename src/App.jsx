@@ -38,6 +38,7 @@ function App() {
     currentAvailablePlayers: {
       paddingTop: 20,
       position: "relative",
+      paddingBottom: 40,
     },
     availablePlayer: {
       padding: 6,
@@ -87,7 +88,7 @@ function App() {
       fontWeight: "bold"
     },
     viewAvailablePlayersButtonDiv: {
-      position: 'fixed',
+      position: 'sticky',
       bottom: 0,
       left: 0,
       alignItems: 'center',
