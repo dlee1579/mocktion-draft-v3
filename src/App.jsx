@@ -88,7 +88,7 @@ function App() {
       fontWeight: "bold"
     },
     viewAvailablePlayersButtonDiv: {
-      position: 'sticky',
+      position: 'fixed',
       bottom: 0,
       left: 0,
       alignItems: 'center',
@@ -96,6 +96,8 @@ function App() {
       opacity: 1,
       backgroundColor: '#242424',
       zIndex: 100,
+      paddingTop: 10,
+      paddingBottom: 10,
     }
   }
 
