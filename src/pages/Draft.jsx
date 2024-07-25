@@ -370,14 +370,14 @@ export default function Draft() {
                 <br></br>
                 <label htmlFor="filter-position" className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>Filter by Position</label>
                 <select id="filter-position" className="text-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value={filterPosition} onChange={handleChangeFilterPosition}>
-                    <option value="ALL">ALL</option>
-                    <option value="QB">QB</option>
-                    <option value="RB">RB</option>
-                    <option value="WR">WR</option>
-                    <option value="TE">TE</option>
-                    <option value="FLEX">W/R/T</option>
-                    <option value="K">K</option>
-                    <option value="DST">DST</option>
+                    <option className="text-lg" value="ALL">ALL</option>
+                    <option className="text-lg" value="QB">QB</option>
+                    <option className="text-lg" value="RB">RB</option>
+                    <option className="text-lg" value="WR">WR</option>
+                    <option className="text-lg" value="TE">TE</option>
+                    <option className="text-lg" value="FLEX">W/R/T</option>
+                    <option className="text-lg" value="K">K</option>
+                    <option className="text-lg" value="DST">DST</option>
                 </select>
             </div>
             <div style={styles.currentAvailablePlayers} id="current-available-players">

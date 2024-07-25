@@ -37,15 +37,15 @@ export default function SelectLeague() {
             <form onSubmit={handleSubmit}>
                 <label htmlFor="scoring" className="text-lg">Scoring: </label>
                 <select name="scoring" className="text-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                    <option value="STD">Standard</option>
-                    <option value="HALF">Half PPR</option>
-                    <option value="PPR">Full PPR</option>
+                    <option className="text-lg" value="STD">Standard</option>
+                    <option className="text-lg" value="HALF">Half PPR</option>
+                    <option className="text-lg" value="PPR">Full PPR</option>
                 </select>
                 <br></br>
                 <label htmlFor="league-size" className="text-lg">League Size: </label>
                 <select name="teams" className="text-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     {leagueSizes.map((size) => (
-                        <option key={size} value={size}>{size}</option>
+                        <option className="text-lg" key={size} value={size}>{size}</option>
                     ))}
                 </select>
                 <br></br>
