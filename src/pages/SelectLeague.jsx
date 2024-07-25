@@ -1,18 +1,25 @@
 import { createSearchParams, useNavigate } from "react-router-dom";
+import { getAnalytics, logEvent } from "firebase/analytics";
 
 export default function SelectLeague() {
     let navigate = useNavigate();
+    const analytics = getAnalytics();
 
     const leagueSizes = [4, 6, 8, 10, 12, 14, 16, 18, 20];
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // console.log(event);
+        const scoringValue = event.target.scoring.value;
+        const teamsValue = event.target.teams.value;
+        logEvent(analytics, "select_draft_settings", {
+            scoring: scoringValue,
+            teams: teamsValue,
+        });
         navigate({
             pathname: "draft",
             search: createSearchParams({
-                scoring: event.target.scoring.value,
-                teams: event.target.teams.value,
+                scoring: scoringValue,
+                teams: teamsValue,
             }).toString()
         });
     }

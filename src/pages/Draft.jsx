@@ -1,10 +1,12 @@
+import { getAnalytics, logEvent } from 'firebase/analytics';
 import { useState, useEffect } from 'react'
-import auctionValues from "../assets/fantasy-auction-values-2024.json";
+// import auctionValues from "../assets/fantasy-auction-values-2024.json";
 import { useSearchParams, useNavigate } from 'react-router-dom';
 
 
 export default function Draft() {
-    auctionValues.sort((a, b) => b.Price - a.Price)
+    const analytics = getAnalytics();
+    // auctionValues.sort((a, b) => b.Price - a.Price)
     const [currentAvailablePlayers, setCurrentAvailablePlayers] = useState([]);
     const [roster, setRoster] = useState([]);
     const [hideRoster, setHideRoster] = useState(true);
@@ -106,8 +108,14 @@ export default function Draft() {
     const handleAvailablePlayerClick = (targetPlayer) => {
         // toggle behavior: if player is on roster, remove them. if player is not on roster, add them
         if (isOnRoster(targetPlayer)) {
+            logEvent(analytics, "remove_player_from_roster", {
+                player: targetPlayer.Overall,
+            });
             setRoster(roster.filter((player) => player !== targetPlayer));
         } else {
+            logEvent(analytics, "add_player_to_roster", {
+                player: targetPlayer.Overall,
+            });
             setRoster([...roster, targetPlayer]);
         }
     }
@@ -125,6 +133,9 @@ export default function Draft() {
     }
 
     const handleRemovePlayerFromRoster = (targetPlayer) => {
+        logEvent(analytics, "remove_player_from_roster", {
+            player: targetPlayer.Overall,
+        });
         setRoster(roster.filter((player) => player !== targetPlayer));
     }
 
@@ -341,6 +352,7 @@ export default function Draft() {
     }
 
     const handleResetRosterClick = () => {
+        logEvent(analytics, "reset_roster");
         setRoster([]);
     }
 
