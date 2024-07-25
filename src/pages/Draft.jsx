@@ -364,6 +364,8 @@ export default function Draft() {
                     Mocktion Draft
                 </h1>
                 <br></br>
+                <p>All values taken from <a className="text-blue-500" href="https://draftwizard.fantasypros.com/auction/fp_nfl.jsp">FantasyPros Draft Calculator</a></p>
+                <br></br>
                 <div>
                     <p>Remaining Budget: {getRemainingBudget()}</p>
                 </div>
@@ -388,7 +390,7 @@ export default function Draft() {
                 ))}
             </div>
             <div style={styles.viewRosterButtonDiv}>
-                <button onClick={handleViewRosterClick} className='bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' style={styles.viewRosterButton}>View Current Roster</button>
+                <button onClick={handleViewRosterClick} className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' style={styles.viewRosterButton}>View Current Roster</button>
             </div>
             {!hideRoster && <div style={styles.currentRosterFlyout} id="current-roster-flyout">
                 <p>Remaining Budget: {getRemainingBudget()}</p>
@@ -400,7 +402,7 @@ export default function Draft() {
                 <div>
                 </div>
                 <div style={styles.viewAvailablePlayersButtonDiv}>
-                    <button className='bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={handleViewAvailablePlayersClick}>View Available Players</button>
+                    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={handleViewAvailablePlayersClick}>View Available Players</button>
                 </div>
                 
                 <p className="pt-20">Take a screenshot of your team!</p>

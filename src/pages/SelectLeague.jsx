@@ -49,7 +49,7 @@ export default function SelectLeague() {
                     ))}
                 </select>
                 <br></br>
-                <input type="submit" className='bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'/>
+                <input type="submit" className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'/>
             </form>
         </div>
     </>
