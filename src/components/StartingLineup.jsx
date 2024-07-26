@@ -99,7 +99,7 @@ export default function StartingLineup(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         let newPrice = parseInt(event.target.newPrice.value);
-
+        
         setRoster(roster.map((player) =>
             player.id === playerToEdit.id
             ? {...player, Price: newPrice, Value: `$${newPrice}`}
@@ -112,12 +112,20 @@ export default function StartingLineup(props) {
             : player
         )
         temp.sort((a,b) => b.Price - a.Price);
+        logEvent(analytics, "edit_player_price", {name: playerToEdit.Name, new_price: newPrice});
         setCurrentAvailablePlayers(temp);
         setShowModal(false);
+        setPlayerToEdit(null);
     }
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+        setPlayerToEdit(null);
+    }
+
     return <>
         <div className='justify-evenly'>
-            <Modal className='justify-center items-center py-40' show={showModal} onClose={()=>setShowModal(false)}>
+            <Modal className='justify-center items-center py-40' show={showModal} onClose={handleCloseModal}>
                 <Modal.Header>{playerToEdit && playerToEdit.Overall}</Modal.Header>
                 <Modal.Body>
                     <div>
