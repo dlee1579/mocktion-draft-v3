@@ -222,7 +222,7 @@ export default function Draft() {
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={handleViewAvailablePlayersClick}>View Available Players</button>
                 </div>
                 
-                <p className="pt-20">Take a screenshot of your team!</p>
+                <p className="pt-10">Take a screenshot of your team!</p>
             </div>}
 
         </>
