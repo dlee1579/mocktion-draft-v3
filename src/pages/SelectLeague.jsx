@@ -51,6 +51,7 @@ export default function SelectLeague() {
                 <br></br>
                 <input type="submit" className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'/>
             </form>
+            <a className="text-blue-500 inset-x-0 bottom-0 absolute bottom-0" href="https://github.com/dlee1579/mocktion-draft-v3">DLee's Github</a>
         </div>
     </>
 }
