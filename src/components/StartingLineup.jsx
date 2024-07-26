@@ -80,8 +80,6 @@ export default function StartingLineup(props) {
     const handlePlayerInfoClick = (player) => {
         setShowModal(true);
         setPlayerToEdit(player);
-        // console.log(player);
-        // console.log(event.target.id.value);
     }
     const renderPlayerInfo = (player) => {
         // console.log(player);
@@ -112,7 +110,13 @@ export default function StartingLineup(props) {
             : player
         )
         temp.sort((a,b) => b.Price - a.Price);
-        logEvent(analytics, "edit_player_price", {name: playerToEdit.Name, new_price: newPrice});
+        logEvent(analytics, "edit_player_price",
+            {
+                name: playerToEdit.Name,
+                price: newPrice,
+                name_price: `${playerToEdit.Name}: ${newPrice}`,
+            }
+        );
         setCurrentAvailablePlayers(temp);
         setShowModal(false);
         setPlayerToEdit(null);
