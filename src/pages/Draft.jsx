@@ -16,8 +16,8 @@ export default function Draft() {
     const [showModal, setShowModal] = useState(false);
     const navigate = useNavigate();
     useEffect(()=> {
-        if (searchParams.has('scoring') && searchParams.has('teams')) {
-            import(`../data/fantasy-auction-values-2024-${searchParams.get("scoring")}-${searchParams.get("teams")}-teams-200-budget.json`)
+        if (searchParams.has('platform')) {
+            import(`../data/fantasy-auction-values-2024-${searchParams.get("platform")}.json`)
                 .then((res) => {
                     let temp = res.default;
                     temp.sort((a,b) => b.Price - a.Price);
@@ -178,8 +178,6 @@ export default function Draft() {
                 <h1 className="text-3xl font-bold underline pt-10">
                     Mocktion Draft
                 </h1>
-                <br></br>
-                <p>All values taken from <a className="text-blue-500" href="https://draftwizard.fantasypros.com/auction/fp_nfl.jsp">FantasyPros Draft Calculator</a></p>
                 <br></br>
                 <div>
                     <p>Remaining Budget: {getRemainingBudget()}</p>
