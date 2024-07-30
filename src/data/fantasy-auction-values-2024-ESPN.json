@@ -1,0 +1,3082 @@
+[
+    {
+        "player_rank": 0,
+        "id": 19,
+        "Overall": "Christian McCaffrey (SF - RB)",
+        "Value": "$68",
+        "Price": 68,
+        "Name": "Christian McCaffrey",
+        "Team": "SF",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 1,
+        "id": 79,
+        "Overall": "CeeDee Lamb (DAL - WR)",
+        "Value": "$59",
+        "Price": 59,
+        "Name": "CeeDee Lamb",
+        "Team": "DAL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 2,
+        "id": 80,
+        "Overall": "Tyreek Hill (MIA - WR)",
+        "Value": "$59",
+        "Price": 59,
+        "Name": "Tyreek Hill",
+        "Team": "MIA",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 3,
+        "id": 20,
+        "Overall": "Breece Hall (NYJ - RB)",
+        "Value": "$56",
+        "Price": 56,
+        "Name": "Breece Hall",
+        "Team": "NYJ",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 4,
+        "id": 81,
+        "Overall": "Ja'Marr Chase (CIN - WR)",
+        "Value": "$55",
+        "Price": 55,
+        "Name": "Ja'Marr Chase",
+        "Team": "CIN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 5,
+        "id": 21,
+        "Overall": "Bijan Robinson (ATL - RB)",
+        "Value": "$55",
+        "Price": 55,
+        "Name": "Bijan Robinson",
+        "Team": "ATL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 6,
+        "id": 82,
+        "Overall": "Justin Jefferson (MIN - WR)",
+        "Value": "$54",
+        "Price": 54,
+        "Name": "Justin Jefferson",
+        "Team": "MIN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 7,
+        "id": 83,
+        "Overall": "Amon-Ra St. Brown (DET - WR)",
+        "Value": "$54",
+        "Price": 54,
+        "Name": "Amon-Ra St. Brown",
+        "Team": "DET",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 8,
+        "id": 22,
+        "Overall": "Jonathan Taylor (IND - RB)",
+        "Value": "$50",
+        "Price": 50,
+        "Name": "Jonathan Taylor",
+        "Team": "IND",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 9,
+        "id": 23,
+        "Overall": "Saquon Barkley (PHI - RB)",
+        "Value": "$48",
+        "Price": 48,
+        "Name": "Saquon Barkley",
+        "Team": "PHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 10,
+        "id": 85,
+        "Overall": "Puka Nacua (LAR - WR)",
+        "Value": "$45",
+        "Price": 45,
+        "Name": "Puka Nacua",
+        "Team": "LAR",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 11,
+        "id": 84,
+        "Overall": "A.J. Brown (PHI - WR)",
+        "Value": "$44",
+        "Price": 44,
+        "Name": "A.J. Brown",
+        "Team": "PHI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 12,
+        "id": 24,
+        "Overall": "Kyren Williams (LAR - RB)",
+        "Value": "$42",
+        "Price": 42,
+        "Name": "Kyren Williams",
+        "Team": "LAR",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 13,
+        "id": 25,
+        "Overall": "Derrick Henry (BAL - RB)",
+        "Value": "$42",
+        "Price": 42,
+        "Name": "Derrick Henry",
+        "Team": "BAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 14,
+        "id": 0,
+        "Overall": "Jalen Hurts (PHI - QB)",
+        "Value": "$41",
+        "Price": 41,
+        "Name": "Jalen Hurts",
+        "Team": "PHI",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 15,
+        "id": 1,
+        "Overall": "Josh Allen (BUF - QB)",
+        "Value": "$36",
+        "Price": 36,
+        "Name": "Josh Allen",
+        "Team": "BUF",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 16,
+        "id": 26,
+        "Overall": "Jahmyr Gibbs (DET - RB)",
+        "Value": "$35",
+        "Price": 35,
+        "Name": "Jahmyr Gibbs",
+        "Team": "DET",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 17,
+        "id": 86,
+        "Overall": "Garrett Wilson (NYJ - WR)",
+        "Value": "$34",
+        "Price": 34,
+        "Name": "Garrett Wilson",
+        "Team": "NYJ",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 18,
+        "id": 28,
+        "Overall": "Travis Etienne Jr. (JAC - RB)",
+        "Value": "$34",
+        "Price": 34,
+        "Name": "Travis Etienne Jr.",
+        "Team": "JAC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 19,
+        "id": 27,
+        "Overall": "Isiah Pacheco (KC - RB)",
+        "Value": "$32",
+        "Price": 32,
+        "Name": "Isiah Pacheco",
+        "Team": "KC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 20,
+        "id": 29,
+        "Overall": "Josh Jacobs (GB - RB)",
+        "Value": "$30",
+        "Price": 30,
+        "Name": "Josh Jacobs",
+        "Team": "GB",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 21,
+        "id": 87,
+        "Overall": "Deebo Samuel Sr. (SF - WR)",
+        "Value": "$29",
+        "Price": 29,
+        "Name": "Deebo Samuel Sr.",
+        "Team": "SF",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 22,
+        "id": 88,
+        "Overall": "Mike Evans (TB - WR)",
+        "Value": "$29",
+        "Price": 29,
+        "Name": "Mike Evans",
+        "Team": "TB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 23,
+        "id": 30,
+        "Overall": "Rachaad White (TB - RB)",
+        "Value": "$29",
+        "Price": 29,
+        "Name": "Rachaad White",
+        "Team": "TB",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 24,
+        "id": 31,
+        "Overall": "James Cook (BUF - RB)",
+        "Value": "$28",
+        "Price": 28,
+        "Name": "James Cook",
+        "Team": "BUF",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 25,
+        "id": 32,
+        "Overall": "De'Von Achane (MIA - RB)",
+        "Value": "$28",
+        "Price": 28,
+        "Name": "De'Von Achane",
+        "Team": "MIA",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 26,
+        "id": 33,
+        "Overall": "Joe Mixon (HOU - RB)INJ",
+        "Value": "$28",
+        "Price": 28,
+        "Name": "Joe Mixon",
+        "Team": "HOU",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 27,
+        "id": 89,
+        "Overall": "Chris Olave (NO - WR)INJ",
+        "Value": "$27",
+        "Price": 27,
+        "Name": "Chris Olave",
+        "Team": "NO",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 28,
+        "id": 136,
+        "Overall": "Travis Kelce (KC - TE)",
+        "Value": "$27",
+        "Price": 27,
+        "Name": "Travis Kelce",
+        "Team": "KC",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 29,
+        "id": 34,
+        "Overall": "Kenneth Walker III (SEA - RB)",
+        "Value": "$26",
+        "Price": 26,
+        "Name": "Kenneth Walker III",
+        "Team": "SEA",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 30,
+        "id": 90,
+        "Overall": "Nico Collins (HOU - WR)",
+        "Value": "$26",
+        "Price": 26,
+        "Name": "Nico Collins",
+        "Team": "HOU",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 31,
+        "id": 92,
+        "Overall": "Brandon Aiyuk (SF - WR)",
+        "Value": "$25",
+        "Price": 25,
+        "Name": "Brandon Aiyuk",
+        "Team": "SF",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 32,
+        "id": 91,
+        "Overall": "Davante Adams (LV - WR)",
+        "Value": "$23",
+        "Price": 23,
+        "Name": "Davante Adams",
+        "Team": "LV",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 33,
+        "id": 94,
+        "Overall": "DK Metcalf (SEA - WR)",
+        "Value": "$23",
+        "Price": 23,
+        "Name": "DK Metcalf",
+        "Team": "SEA",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 34,
+        "id": 95,
+        "Overall": "Drake London (ATL - WR)",
+        "Value": "$22",
+        "Price": 22,
+        "Name": "Drake London",
+        "Team": "ATL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 35,
+        "id": 2,
+        "Overall": "Patrick Mahomes II (KC - QB)",
+        "Value": "$20",
+        "Price": 20,
+        "Name": "Patrick Mahomes II",
+        "Team": "KC",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 36,
+        "id": 93,
+        "Overall": "Marvin Harrison Jr. (ARI - WR)",
+        "Value": "$20",
+        "Price": 20,
+        "Name": "Marvin Harrison Jr.",
+        "Team": "ARI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 37,
+        "id": 138,
+        "Overall": "Mark Andrews (BAL - TE)",
+        "Value": "$20",
+        "Price": 20,
+        "Name": "Mark Andrews",
+        "Team": "BAL",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 38,
+        "id": 3,
+        "Overall": "Lamar Jackson (BAL - QB)",
+        "Value": "$20",
+        "Price": 20,
+        "Name": "Lamar Jackson",
+        "Team": "BAL",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 39,
+        "id": 137,
+        "Overall": "Sam LaPorta (DET - TE)",
+        "Value": "$19",
+        "Price": 19,
+        "Name": "Sam LaPorta",
+        "Team": "DET",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 40,
+        "id": 96,
+        "Overall": "DeVonta Smith (PHI - WR)",
+        "Value": "$19",
+        "Price": 19,
+        "Name": "DeVonta Smith",
+        "Team": "PHI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 41,
+        "id": 36,
+        "Overall": "Alvin Kamara (NO - RB)",
+        "Value": "$18",
+        "Price": 18,
+        "Name": "Alvin Kamara",
+        "Team": "NO",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 42,
+        "id": 98,
+        "Overall": "George Pickens (PIT - WR)",
+        "Value": "$16",
+        "Price": 16,
+        "Name": "George Pickens",
+        "Team": "PIT",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 43,
+        "id": 35,
+        "Overall": "David Montgomery (DET - RB)",
+        "Value": "$16",
+        "Price": 16,
+        "Name": "David Montgomery",
+        "Team": "DET",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 44,
+        "id": 97,
+        "Overall": "DJ Moore (CHI - WR)",
+        "Value": "$16",
+        "Price": 16,
+        "Name": "DJ Moore",
+        "Team": "CHI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 45,
+        "id": 100,
+        "Overall": "Jaylen Waddle (MIA - WR)",
+        "Value": "$15",
+        "Price": 15,
+        "Name": "Jaylen Waddle",
+        "Team": "MIA",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 46,
+        "id": 101,
+        "Overall": "Amari Cooper (CLE - WR)",
+        "Value": "$14",
+        "Price": 14,
+        "Name": "Amari Cooper",
+        "Team": "CLE",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 47,
+        "id": 99,
+        "Overall": "Cooper Kupp (LAR - WR)",
+        "Value": "$14",
+        "Price": 14,
+        "Name": "Cooper Kupp",
+        "Team": "LAR",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 48,
+        "id": 37,
+        "Overall": "Aaron Jones (MIN - RB)",
+        "Value": "$12",
+        "Price": 12,
+        "Name": "Aaron Jones",
+        "Team": "MIN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 49,
+        "id": 38,
+        "Overall": "Najee Harris (PIT - RB)",
+        "Value": "$10",
+        "Price": 10,
+        "Name": "Najee Harris",
+        "Team": "PIT",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 50,
+        "id": 102,
+        "Overall": "Tee Higgins (CIN - WR)",
+        "Value": "$10",
+        "Price": 10,
+        "Name": "Tee Higgins",
+        "Team": "CIN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 51,
+        "id": 139,
+        "Overall": "George Kittle (SF - TE)",
+        "Value": "$10",
+        "Price": 10,
+        "Name": "George Kittle",
+        "Team": "SF",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 52,
+        "id": 103,
+        "Overall": "Tank Dell (HOU - WR)",
+        "Value": "$10",
+        "Price": 10,
+        "Name": "Tank Dell",
+        "Team": "HOU",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 53,
+        "id": 43,
+        "Overall": "Rhamondre Stevenson (NE - RB)",
+        "Value": "$9",
+        "Price": 9,
+        "Name": "Rhamondre Stevenson",
+        "Team": "NE",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 54,
+        "id": 105,
+        "Overall": "Zay Flowers (BAL - WR)",
+        "Value": "$9",
+        "Price": 9,
+        "Name": "Zay Flowers",
+        "Team": "BAL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 55,
+        "id": 104,
+        "Overall": "Stefon Diggs (HOU - WR)",
+        "Value": "$9",
+        "Price": 9,
+        "Name": "Stefon Diggs",
+        "Team": "HOU",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 56,
+        "id": 42,
+        "Overall": "Raheem Mostert (MIA - RB)",
+        "Value": "$9",
+        "Price": 9,
+        "Name": "Raheem Mostert",
+        "Team": "MIA",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 57,
+        "id": 41,
+        "Overall": "D'Andre Swift (CHI - RB)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "D'Andre Swift",
+        "Team": "CHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 58,
+        "id": 40,
+        "Overall": "Zamir White (LV - RB)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "Zamir White",
+        "Team": "LV",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 59,
+        "id": 39,
+        "Overall": "James Conner (ARI - RB)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "James Conner",
+        "Team": "ARI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 60,
+        "id": 140,
+        "Overall": "Kyle Pitts (ATL - TE)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "Kyle Pitts",
+        "Team": "ATL",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 61,
+        "id": 141,
+        "Overall": "Trey McBride (ARI - TE)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "Trey McBride",
+        "Team": "ARI",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 62,
+        "id": 106,
+        "Overall": "Malik Nabers (NYG - WR)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "Malik Nabers",
+        "Team": "NYG",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 63,
+        "id": 4,
+        "Overall": "Dak Prescott (DAL - QB)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "Dak Prescott",
+        "Team": "DAL",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 64,
+        "id": 5,
+        "Overall": "Anthony Richardson (IND - QB)",
+        "Value": "$8",
+        "Price": 8,
+        "Name": "Anthony Richardson",
+        "Team": "IND",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 65,
+        "id": 108,
+        "Overall": "Calvin Ridley (TEN - WR)",
+        "Value": "$7",
+        "Price": 7,
+        "Name": "Calvin Ridley",
+        "Team": "TEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 66,
+        "id": 107,
+        "Overall": "Michael Pittman Jr. (IND - WR)",
+        "Value": "$7",
+        "Price": 7,
+        "Name": "Michael Pittman Jr.",
+        "Team": "IND",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 67,
+        "id": 142,
+        "Overall": "Dalton Kincaid (BUF - TE)",
+        "Value": "$7",
+        "Price": 7,
+        "Name": "Dalton Kincaid",
+        "Team": "BUF",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 68,
+        "id": 46,
+        "Overall": "Brian Robinson Jr. (WAS - RB)",
+        "Value": "$7",
+        "Price": 7,
+        "Name": "Brian Robinson Jr.",
+        "Team": "WAS",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 69,
+        "id": 48,
+        "Overall": "Jonathon Brooks (CAR - RB)INJ",
+        "Value": "$7",
+        "Price": 7,
+        "Name": "Jonathon Brooks",
+        "Team": "CAR",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 70,
+        "id": 109,
+        "Overall": "Chris Godwin (TB - WR)",
+        "Value": "$6",
+        "Price": 6,
+        "Name": "Chris Godwin",
+        "Team": "TB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 71,
+        "id": 45,
+        "Overall": "Tony Pollard (TEN - RB)",
+        "Value": "$6",
+        "Price": 6,
+        "Name": "Tony Pollard",
+        "Team": "TEN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 72,
+        "id": 44,
+        "Overall": "Zack Moss (CIN - RB)",
+        "Value": "$6",
+        "Price": 6,
+        "Name": "Zack Moss",
+        "Team": "CIN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 73,
+        "id": 47,
+        "Overall": "Devin Singletary (NYG - RB)",
+        "Value": "$6",
+        "Price": 6,
+        "Name": "Devin Singletary",
+        "Team": "NYG",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 74,
+        "id": 6,
+        "Overall": "C.J. Stroud (HOU - QB)",
+        "Value": "$5",
+        "Price": 5,
+        "Name": "C.J. Stroud",
+        "Team": "HOU",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 75,
+        "id": 7,
+        "Overall": "Joe Burrow (CIN - QB)",
+        "Value": "$5",
+        "Price": 5,
+        "Name": "Joe Burrow",
+        "Team": "CIN",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 76,
+        "id": 143,
+        "Overall": "Jake Ferguson (DAL - TE)",
+        "Value": "$5",
+        "Price": 5,
+        "Name": "Jake Ferguson",
+        "Team": "DAL",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 77,
+        "id": 49,
+        "Overall": "Javonte Williams (DEN - RB)",
+        "Value": "$5",
+        "Price": 5,
+        "Name": "Javonte Williams",
+        "Team": "DEN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 78,
+        "id": 144,
+        "Overall": "David Njoku (CLE - TE)",
+        "Value": "$5",
+        "Price": 5,
+        "Name": "David Njoku",
+        "Team": "CLE",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 79,
+        "id": 110,
+        "Overall": "Christian Kirk (JAC - WR)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Christian Kirk",
+        "Team": "JAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 80,
+        "id": 111,
+        "Overall": "Jayden Reed (GB - WR)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Jayden Reed",
+        "Team": "GB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 81,
+        "id": 50,
+        "Overall": "Gus Edwards (LAC - RB)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Gus Edwards",
+        "Team": "LAC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 82,
+        "id": 51,
+        "Overall": "Ezekiel Elliott (DAL - RB)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Ezekiel Elliott",
+        "Team": "DAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 83,
+        "id": 112,
+        "Overall": "Hollywood Brown (KC - WR)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Hollywood Brown",
+        "Team": "KC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 84,
+        "id": 52,
+        "Overall": "Jaylen Warren (PIT - RB)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Jaylen Warren",
+        "Team": "PIT",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 85,
+        "id": 8,
+        "Overall": "Kyler Murray (ARI - QB)",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Kyler Murray",
+        "Team": "ARI",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 86,
+        "id": 53,
+        "Overall": "Nick Chubb (CLE - RB)INJ",
+        "Value": "$4",
+        "Price": 4,
+        "Name": "Nick Chubb",
+        "Team": "CLE",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 87,
+        "id": 113,
+        "Overall": "DeAndre Hopkins (TEN - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "DeAndre Hopkins",
+        "Team": "TEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 88,
+        "id": 145,
+        "Overall": "Evan Engram (JAC - TE)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Evan Engram",
+        "Team": "JAC",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 89,
+        "id": 54,
+        "Overall": "Tyjae Spears (TEN - RB)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Tyjae Spears",
+        "Team": "TEN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 90,
+        "id": 55,
+        "Overall": "Austin Ekeler (WAS - RB)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Austin Ekeler",
+        "Team": "WAS",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 91,
+        "id": 114,
+        "Overall": "Terry McLaurin (WAS - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Terry McLaurin",
+        "Team": "WAS",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 92,
+        "id": 116,
+        "Overall": "Jordan Addison (MIN - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Jordan Addison",
+        "Team": "MIN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 93,
+        "id": 115,
+        "Overall": "Christian Watson (GB - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Christian Watson",
+        "Team": "GB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 94,
+        "id": 56,
+        "Overall": "Chase Brown (CIN - RB)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Chase Brown",
+        "Team": "CIN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 95,
+        "id": 9,
+        "Overall": "Brock Purdy (SF - QB)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Brock Purdy",
+        "Team": "SF",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 96,
+        "id": 10,
+        "Overall": "Jordan Love (GB - QB)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Jordan Love",
+        "Team": "GB",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 97,
+        "id": 117,
+        "Overall": "Keenan Allen (CHI - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Keenan Allen",
+        "Team": "CHI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 98,
+        "id": 118,
+        "Overall": "Diontae Johnson (CAR - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Diontae Johnson",
+        "Team": "CAR",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 99,
+        "id": 119,
+        "Overall": "Xavier Worthy (KC - WR)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Xavier Worthy",
+        "Team": "KC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 100,
+        "id": 146,
+        "Overall": "Brock Bowers (LV - TE)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Brock Bowers",
+        "Team": "LV",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 101,
+        "id": 57,
+        "Overall": "Jerome Ford (CLE - RB)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Jerome Ford",
+        "Team": "CLE",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 102,
+        "id": 147,
+        "Overall": "Dallas Goedert (PHI - TE)",
+        "Value": "$3",
+        "Price": 3,
+        "Name": "Dallas Goedert",
+        "Team": "PHI",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 103,
+        "id": 58,
+        "Overall": "Ty Chandler (MIN - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Ty Chandler",
+        "Team": "MIN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 104,
+        "id": 60,
+        "Overall": "J.K. Dobbins (LAC - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "J.K. Dobbins",
+        "Team": "LAC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 105,
+        "id": 121,
+        "Overall": "Rome Odunze (CHI - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Rome Odunze",
+        "Team": "CHI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 106,
+        "id": 120,
+        "Overall": "Rashee Rice (KC - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Rashee Rice",
+        "Team": "KC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 107,
+        "id": 59,
+        "Overall": "Tyler Allgeier (ATL - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Tyler Allgeier",
+        "Team": "ATL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 108,
+        "id": 148,
+        "Overall": "Dalton Schultz (HOU - TE)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Dalton Schultz",
+        "Team": "HOU",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 109,
+        "id": 64,
+        "Overall": "Rico Dowdle (DAL - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Rico Dowdle",
+        "Team": "DAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 110,
+        "id": 67,
+        "Overall": "Jaleel McLaughlin (DEN - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Jaleel McLaughlin",
+        "Team": "DEN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 111,
+        "id": 122,
+        "Overall": "Courtland Sutton (DEN - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Courtland Sutton",
+        "Team": "DEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 112,
+        "id": 149,
+        "Overall": "Pat Freiermuth (PIT - TE)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Pat Freiermuth",
+        "Team": "PIT",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 113,
+        "id": 63,
+        "Overall": "Zach Charbonnet (SEA - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Zach Charbonnet",
+        "Team": "SEA",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 114,
+        "id": 11,
+        "Overall": "Trevor Lawrence (JAC - QB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Trevor Lawrence",
+        "Team": "JAC",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 115,
+        "id": 66,
+        "Overall": "Chuba Hubbard (CAR - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Chuba Hubbard",
+        "Team": "CAR",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 116,
+        "id": 65,
+        "Overall": "Antonio Gibson (NE - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Antonio Gibson",
+        "Team": "NE",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 117,
+        "id": 61,
+        "Overall": "Trey Benson (ARI - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Trey Benson",
+        "Team": "ARI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 118,
+        "id": 62,
+        "Overall": "Blake Corum (LAR - RB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Blake Corum",
+        "Team": "LAR",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 119,
+        "id": 151,
+        "Overall": "T.J. Hockenson (MIN - TE)INJ",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "T.J. Hockenson",
+        "Team": "MIN",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 120,
+        "id": 12,
+        "Overall": "Jayden Daniels (WAS - QB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Jayden Daniels",
+        "Team": "WAS",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 121,
+        "id": 13,
+        "Overall": "Caleb Williams (CHI - QB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Caleb Williams",
+        "Team": "CHI",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 122,
+        "id": 150,
+        "Overall": "Cole Kmet (CHI - TE)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Cole Kmet",
+        "Team": "CHI",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 123,
+        "id": 123,
+        "Overall": "Brian Thomas Jr. (JAC - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Brian Thomas Jr.",
+        "Team": "JAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 124,
+        "id": 124,
+        "Overall": "Ladd McConkey (LAC - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Ladd McConkey",
+        "Team": "LAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 125,
+        "id": 128,
+        "Overall": "Jameson Williams (DET - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Jameson Williams",
+        "Team": "DET",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 126,
+        "id": 129,
+        "Overall": "Keon Coleman (BUF - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Keon Coleman",
+        "Team": "BUF",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 127,
+        "id": 15,
+        "Overall": "Jared Goff (DET - QB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Jared Goff",
+        "Team": "DET",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 128,
+        "id": 127,
+        "Overall": "Tyler Lockett (SEA - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Tyler Lockett",
+        "Team": "SEA",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 129,
+        "id": 14,
+        "Overall": "Justin Herbert (LAC - QB)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Justin Herbert",
+        "Team": "LAC",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 130,
+        "id": 68,
+        "Overall": "MarShawn Lloyd (GB - RB)INJ",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "MarShawn Lloyd",
+        "Team": "GB",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 131,
+        "id": 69,
+        "Overall": "Kendre Miller (NO - RB)INJ",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Kendre Miller",
+        "Team": "NO",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 132,
+        "id": 125,
+        "Overall": "Mike Williams (NYJ - WR)INJ",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Mike Williams",
+        "Team": "NYJ",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 133,
+        "id": 126,
+        "Overall": "Jaxon Smith-Njigba (SEA - WR)",
+        "Value": "$2",
+        "Price": 2,
+        "Name": "Jaxon Smith-Njigba",
+        "Team": "SEA",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 134,
+        "id": 74,
+        "Overall": "Elijah Mitchell (SF - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Elijah Mitchell",
+        "Team": "SF",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 135,
+        "id": 155,
+        "Overall": "Dallas Cowboys (DAL - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Dallas Cowboys",
+        "Team": "DAL",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 136,
+        "id": 152,
+        "Overall": "Taysom Hill (NO - QB,TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Taysom Hill",
+        "Team": "NO",
+        "Position": "QB,TE"
+    },
+    {
+        "player_rank": 137,
+        "id": 70,
+        "Overall": "Khalil Herbert (CHI - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Khalil Herbert",
+        "Team": "CHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 138,
+        "id": 71,
+        "Overall": "Alexander Mattison (LV - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Alexander Mattison",
+        "Team": "LV",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 139,
+        "id": 73,
+        "Overall": "Clyde Edwards-Helaire (KC - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Clyde Edwards-Helaire",
+        "Team": "KC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 140,
+        "id": 72,
+        "Overall": "Ray Davis (BUF - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Ray Davis",
+        "Team": "BUF",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 141,
+        "id": 16,
+        "Overall": "Deshaun Watson (CLE - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Deshaun Watson",
+        "Team": "CLE",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 142,
+        "id": 130,
+        "Overall": "Jerry Jeudy (CLE - WR)INJ",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jerry Jeudy",
+        "Team": "CLE",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 143,
+        "id": 132,
+        "Overall": "Jakobi Meyers (LV - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jakobi Meyers",
+        "Team": "LV",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 144,
+        "id": 131,
+        "Overall": "Brandin Cooks (DAL - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Brandin Cooks",
+        "Team": "DAL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 145,
+        "id": 175,
+        "Overall": "Blake Grupe (NO - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Blake Grupe",
+        "Team": "NO",
+        "Position": "K"
+    },
+    {
+        "player_rank": 146,
+        "id": 169,
+        "Overall": "Harrison Butker (KC - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Harrison Butker",
+        "Team": "KC",
+        "Position": "K"
+    },
+    {
+        "player_rank": 147,
+        "id": 164,
+        "Overall": "Pittsburgh Steelers (PIT - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Pittsburgh Steelers",
+        "Team": "PIT",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 148,
+        "id": 165,
+        "Overall": "Buffalo Bills (BUF - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Buffalo Bills",
+        "Team": "BUF",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 149,
+        "id": 166,
+        "Overall": "Miami Dolphins (MIA - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Miami Dolphins",
+        "Team": "MIA",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 150,
+        "id": 167,
+        "Overall": "Younghoe Koo (ATL - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Younghoe Koo",
+        "Team": "ATL",
+        "Position": "K"
+    },
+    {
+        "player_rank": 151,
+        "id": 168,
+        "Overall": "Justin Tucker (BAL - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Justin Tucker",
+        "Team": "BAL",
+        "Position": "K"
+    },
+    {
+        "player_rank": 152,
+        "id": 178,
+        "Overall": "Matt Gay (IND - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Matt Gay",
+        "Team": "IND",
+        "Position": "K"
+    },
+    {
+        "player_rank": 153,
+        "id": 177,
+        "Overall": "Evan McPherson (CIN - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Evan McPherson",
+        "Team": "CIN",
+        "Position": "K"
+    },
+    {
+        "player_rank": 154,
+        "id": 176,
+        "Overall": "Greg Zuerlein (NYJ - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Greg Zuerlein",
+        "Team": "NYJ",
+        "Position": "K"
+    },
+    {
+        "player_rank": 155,
+        "id": 172,
+        "Overall": "Jason Myers (SEA - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jason Myers",
+        "Team": "SEA",
+        "Position": "K"
+    },
+    {
+        "player_rank": 156,
+        "id": 171,
+        "Overall": "Jake Elliott (PHI - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jake Elliott",
+        "Team": "PHI",
+        "Position": "K"
+    },
+    {
+        "player_rank": 157,
+        "id": 170,
+        "Overall": "Brandon Aubrey (DAL - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Brandon Aubrey",
+        "Team": "DAL",
+        "Position": "K"
+    },
+    {
+        "player_rank": 158,
+        "id": 162,
+        "Overall": "Indianapolis Colts (IND - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Indianapolis Colts",
+        "Team": "IND",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 159,
+        "id": 173,
+        "Overall": "Ka'imi Fairbairn (HOU - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Ka'imi Fairbairn",
+        "Team": "HOU",
+        "Position": "K"
+    },
+    {
+        "player_rank": 160,
+        "id": 174,
+        "Overall": "Cameron Dicker (LAC - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Cameron Dicker",
+        "Team": "LAC",
+        "Position": "K"
+    },
+    {
+        "player_rank": 161,
+        "id": 163,
+        "Overall": "San Francisco 49ers (SF - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "San Francisco 49ers",
+        "Team": "SF",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 162,
+        "id": 154,
+        "Overall": "Hunter Henry (NE - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Hunter Henry",
+        "Team": "NE",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 163,
+        "id": 161,
+        "Overall": "Kansas City Chiefs (KC - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kansas City Chiefs",
+        "Team": "KC",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 164,
+        "id": 133,
+        "Overall": "Gabe Davis (JAC - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Gabe Davis",
+        "Team": "JAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 165,
+        "id": 160,
+        "Overall": "Cleveland Browns (CLE - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Cleveland Browns",
+        "Team": "CLE",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 166,
+        "id": 18,
+        "Overall": "Baker Mayfield (TB - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Baker Mayfield",
+        "Team": "TB",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 167,
+        "id": 75,
+        "Overall": "Bucky Irving (TB - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Bucky Irving",
+        "Team": "TB",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 168,
+        "id": 76,
+        "Overall": "D'Onta Foreman (CLE - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "D'Onta Foreman",
+        "Team": "CLE",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 169,
+        "id": 77,
+        "Overall": "Braelon Allen (NYJ - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Braelon Allen",
+        "Team": "NYJ",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 170,
+        "id": 78,
+        "Overall": "Tyrone Tracy Jr. (NYG - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tyrone Tracy Jr.",
+        "Team": "NYG",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 171,
+        "id": 17,
+        "Overall": "Tua Tagovailoa (MIA - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tua Tagovailoa",
+        "Team": "MIA",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 172,
+        "id": 134,
+        "Overall": "Joshua Palmer (LAC - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Joshua Palmer",
+        "Team": "LAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 173,
+        "id": 153,
+        "Overall": "Tyler Conklin (NYJ - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tyler Conklin",
+        "Team": "NYJ",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 174,
+        "id": 156,
+        "Overall": "Baltimore Ravens (BAL - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Baltimore Ravens",
+        "Team": "BAL",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 175,
+        "id": 157,
+        "Overall": "New York Jets (NYJ - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "New York Jets",
+        "Team": "NYJ",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 176,
+        "id": 158,
+        "Overall": "Philadelphia Eagles (PHI - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Philadelphia Eagles",
+        "Team": "PHI",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 177,
+        "id": 135,
+        "Overall": "Rashid Shaheed (NO - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Rashid Shaheed",
+        "Team": "NO",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 178,
+        "id": 159,
+        "Overall": "Houston Texans (HOU - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Houston Texans",
+        "Team": "HOU",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 179,
+        "id": 267,
+        "Overall": "Roschon Johnson (CHI - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Roschon Johnson",
+        "Team": "CHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 180,
+        "id": 261,
+        "Overall": "Noah Fant (SEA - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Noah Fant",
+        "Team": "SEA",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 181,
+        "id": 262,
+        "Overall": "Zay Jones (ARI - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Zay Jones",
+        "Team": "ARI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 182,
+        "id": 263,
+        "Overall": "Rondale Moore (ATL - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Rondale Moore",
+        "Team": "ATL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 183,
+        "id": 264,
+        "Overall": "Isaiah Likely (BAL - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Isaiah Likely",
+        "Team": "BAL",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 184,
+        "id": 265,
+        "Overall": "Tim Patrick (DEN - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tim Patrick",
+        "Team": "DEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 185,
+        "id": 266,
+        "Overall": "Luke McCaffrey (WAS - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Luke McCaffrey",
+        "Team": "WAS",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 186,
+        "id": 269,
+        "Overall": "Josh Reynolds (DEN - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Josh Reynolds",
+        "Team": "DEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 187,
+        "id": 268,
+        "Overall": "Elijah Moore (CLE - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Elijah Moore",
+        "Team": "CLE",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 188,
+        "id": 270,
+        "Overall": "Keaton Mitchell (BAL - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Keaton Mitchell",
+        "Team": "BAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 189,
+        "id": 271,
+        "Overall": "Dameon Pierce (HOU - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Dameon Pierce",
+        "Team": "HOU",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 190,
+        "id": 272,
+        "Overall": "Trey Palmer (TB - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Trey Palmer",
+        "Team": "TB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 191,
+        "id": 273,
+        "Overall": "Jalen Tolbert (DAL - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jalen Tolbert",
+        "Team": "DAL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 192,
+        "id": 259,
+        "Overall": "Jalen McMillan (TB - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jalen McMillan",
+        "Team": "TB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 193,
+        "id": 260,
+        "Overall": "Tyler Boyd (TEN - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tyler Boyd",
+        "Team": "TEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 194,
+        "id": 251,
+        "Overall": "Troy Franklin (DEN - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Troy Franklin",
+        "Team": "DEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 195,
+        "id": 258,
+        "Overall": "Jalin Hyatt (NYG - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jalin Hyatt",
+        "Team": "NYG",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 196,
+        "id": 257,
+        "Overall": "Cade Otton (TB - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Cade Otton",
+        "Team": "TB",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 197,
+        "id": 256,
+        "Overall": "Chigoziem Okonkwo (TEN - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Chigoziem Okonkwo",
+        "Team": "TEN",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 198,
+        "id": 255,
+        "Overall": "Juwan Johnson (NO - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Juwan Johnson",
+        "Team": "NO",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 199,
+        "id": 254,
+        "Overall": "Luke Musgrave (GB - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Luke Musgrave",
+        "Team": "GB",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 200,
+        "id": 253,
+        "Overall": "Roman Wilson (PIT - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Roman Wilson",
+        "Team": "PIT",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 201,
+        "id": 252,
+        "Overall": "Ricky Pearsall (SF - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Ricky Pearsall",
+        "Team": "SF",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 202,
+        "id": 275,
+        "Overall": "Ben Sinnott (WAS - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Ben Sinnott",
+        "Team": "WAS",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 203,
+        "id": 250,
+        "Overall": "Odell Beckham Jr. (MIA - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Odell Beckham Jr.",
+        "Team": "MIA",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 204,
+        "id": 249,
+        "Overall": "Malachi Corley (NYJ - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Malachi Corley",
+        "Team": "NYJ",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 205,
+        "id": 248,
+        "Overall": "DJ Chark Jr. (LAC - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "DJ Chark Jr.",
+        "Team": "LAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 206,
+        "id": 247,
+        "Overall": "Darius Slayton (NYG - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Darius Slayton",
+        "Team": "NYG",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 207,
+        "id": 246,
+        "Overall": "Quentin Johnston (LAC - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Quentin Johnston",
+        "Team": "LAC",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 208,
+        "id": 245,
+        "Overall": "Ja'Lynn Polk (NE - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Ja'Lynn Polk",
+        "Team": "NE",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 209,
+        "id": 274,
+        "Overall": "Kenneth Gainwell (PHI - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kenneth Gainwell",
+        "Team": "PHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 210,
+        "id": 282,
+        "Overall": "Greg Dortch (ARI - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Greg Dortch",
+        "Team": "ARI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 211,
+        "id": 276,
+        "Overall": "Hayden Hurst (LAC - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Hayden Hurst",
+        "Team": "LAC",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 212,
+        "id": 277,
+        "Overall": "Jamaal Williams (NO - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jamaal Williams",
+        "Team": "NO",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 213,
+        "id": 306,
+        "Overall": "Evan Hull (IND - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Evan Hull",
+        "Team": "IND",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 214,
+        "id": 305,
+        "Overall": "Emani Bailey (KC - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Emani Bailey",
+        "Team": "KC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 215,
+        "id": 304,
+        "Overall": "Kareem Hunt ( - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kareem Hunt",
+        "Team": "",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 216,
+        "id": 303,
+        "Overall": "Kendall Milton (PHI - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kendall Milton",
+        "Team": "PHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 217,
+        "id": 302,
+        "Overall": "Isaac Guerendo (SF - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Isaac Guerendo",
+        "Team": "SF",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 218,
+        "id": 301,
+        "Overall": "Emari Demercado (ARI - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Emari Demercado",
+        "Team": "ARI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 219,
+        "id": 300,
+        "Overall": "Rasheen Ali (BAL - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Rasheen Ali",
+        "Team": "BAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 220,
+        "id": 299,
+        "Overall": "Dylan Laube (LV - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Dylan Laube",
+        "Team": "LV",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 221,
+        "id": 298,
+        "Overall": "Ty Johnson (BUF - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Ty Johnson",
+        "Team": "BUF",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 222,
+        "id": 297,
+        "Overall": "Isaiah Davis (NYJ - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Isaiah Davis",
+        "Team": "NYJ",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 223,
+        "id": 296,
+        "Overall": "Deuce Vaughn (DAL - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Deuce Vaughn",
+        "Team": "DAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 224,
+        "id": 295,
+        "Overall": "Eric Gray (NYG - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Eric Gray",
+        "Team": "NYG",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 225,
+        "id": 294,
+        "Overall": "Dalvin Cook ( - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Dalvin Cook",
+        "Team": "",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 226,
+        "id": 293,
+        "Overall": "Trey Sermon (IND - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Trey Sermon",
+        "Team": "IND",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 227,
+        "id": 292,
+        "Overall": "Will Shipley (PHI - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Will Shipley",
+        "Team": "PHI",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 228,
+        "id": 291,
+        "Overall": "Chase Edmonds (TB - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Chase Edmonds",
+        "Team": "TB",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 229,
+        "id": 290,
+        "Overall": "Samaje Perine (DEN - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Samaje Perine",
+        "Team": "DEN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 230,
+        "id": 289,
+        "Overall": "AJ Dillon (GB - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "AJ Dillon",
+        "Team": "GB",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 231,
+        "id": 288,
+        "Overall": "Justice Hill (BAL - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Justice Hill",
+        "Team": "BAL",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 232,
+        "id": 287,
+        "Overall": "Audric Estime (DEN - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Audric Estime",
+        "Team": "DEN",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 233,
+        "id": 286,
+        "Overall": "Miles Sanders (CAR - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Miles Sanders",
+        "Team": "CAR",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 234,
+        "id": 285,
+        "Overall": "Mike Gesicki (CIN - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Mike Gesicki",
+        "Team": "CIN",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 235,
+        "id": 284,
+        "Overall": "Noah Brown (HOU - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Noah Brown",
+        "Team": "HOU",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 236,
+        "id": 283,
+        "Overall": "Jonnu Smith (MIA - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jonnu Smith",
+        "Team": "MIA",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 237,
+        "id": 243,
+        "Overall": "Marvin Mims Jr. (DEN - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Marvin Mims Jr.",
+        "Team": "DEN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 238,
+        "id": 281,
+        "Overall": "Jaylen Wright (MIA - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jaylen Wright",
+        "Team": "MIA",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 239,
+        "id": 280,
+        "Overall": "Tank Bigsby (JAC - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tank Bigsby",
+        "Team": "JAC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 240,
+        "id": 279,
+        "Overall": "Kimani Vidal (LAC - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kimani Vidal",
+        "Team": "LAC",
+        "Position": "RB"
+    },
+    {
+        "player_rank": 241,
+        "id": 278,
+        "Overall": "Tucker Kraft (GB - TE)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tucker Kraft",
+        "Team": "GB",
+        "Position": "TE"
+    },
+    {
+        "player_rank": 242,
+        "id": 244,
+        "Overall": "Michael Wilson (ARI - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Michael Wilson",
+        "Team": "ARI",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 243,
+        "id": 235,
+        "Overall": "Demarcus Robinson (LAR - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Demarcus Robinson",
+        "Team": "LAR",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 244,
+        "id": 242,
+        "Overall": "Rashod Bateman (BAL - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Rashod Bateman",
+        "Team": "BAL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 245,
+        "id": 241,
+        "Overall": "Jermaine Burton (CIN - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jermaine Burton",
+        "Team": "CIN",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 246,
+        "id": 207,
+        "Overall": "Los Angeles Chargers (LAC - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Los Angeles Chargers",
+        "Team": "LAC",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 247,
+        "id": 206,
+        "Overall": "Will Reichard (MIN - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Will Reichard",
+        "Team": "MIN",
+        "Position": "K"
+    },
+    {
+        "player_rank": 248,
+        "id": 205,
+        "Overall": "Daniel Carlson (LV - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Daniel Carlson",
+        "Team": "LV",
+        "Position": "K"
+    },
+    {
+        "player_rank": 249,
+        "id": 204,
+        "Overall": "Wil Lutz (DEN - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Wil Lutz",
+        "Team": "DEN",
+        "Position": "K"
+    },
+    {
+        "player_rank": 250,
+        "id": 203,
+        "Overall": "Nick Folk (TEN - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Nick Folk",
+        "Team": "TEN",
+        "Position": "K"
+    },
+    {
+        "player_rank": 251,
+        "id": 202,
+        "Overall": "Chris Boswell (PIT - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Chris Boswell",
+        "Team": "PIT",
+        "Position": "K"
+    },
+    {
+        "player_rank": 252,
+        "id": 201,
+        "Overall": "Dustin Hopkins (CLE - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Dustin Hopkins",
+        "Team": "CLE",
+        "Position": "K"
+    },
+    {
+        "player_rank": 253,
+        "id": 200,
+        "Overall": "Joshua Karty (LAR - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Joshua Karty",
+        "Team": "LAR",
+        "Position": "K"
+    },
+    {
+        "player_rank": 254,
+        "id": 199,
+        "Overall": "Matt Prater (ARI - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Matt Prater",
+        "Team": "ARI",
+        "Position": "K"
+    },
+    {
+        "player_rank": 255,
+        "id": 198,
+        "Overall": "Chase McLaughlin (TB - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Chase McLaughlin",
+        "Team": "TB",
+        "Position": "K"
+    },
+    {
+        "player_rank": 256,
+        "id": 197,
+        "Overall": "Jake Bates (DET - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jake Bates",
+        "Team": "DET",
+        "Position": "K"
+    },
+    {
+        "player_rank": 257,
+        "id": 196,
+        "Overall": "Cairo Santos (CHI - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Cairo Santos",
+        "Team": "CHI",
+        "Position": "K"
+    },
+    {
+        "player_rank": 258,
+        "id": 195,
+        "Overall": "Anders Carlson (GB - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Anders Carlson",
+        "Team": "GB",
+        "Position": "K"
+    },
+    {
+        "player_rank": 259,
+        "id": 194,
+        "Overall": "Tyler Bass (BUF - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tyler Bass",
+        "Team": "BUF",
+        "Position": "K"
+    },
+    {
+        "player_rank": 260,
+        "id": 193,
+        "Overall": "Jason Sanders (MIA - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jason Sanders",
+        "Team": "MIA",
+        "Position": "K"
+    },
+    {
+        "player_rank": 261,
+        "id": 192,
+        "Overall": "Jake Moody (SF - K)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jake Moody",
+        "Team": "SF",
+        "Position": "K"
+    },
+    {
+        "player_rank": 262,
+        "id": 191,
+        "Overall": "Gardner Minshew II (LV - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Gardner Minshew II",
+        "Team": "LV",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 263,
+        "id": 190,
+        "Overall": "Drake Maye (NE - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Drake Maye",
+        "Team": "NE",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 264,
+        "id": 189,
+        "Overall": "J.J. McCarthy (MIN - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "J.J. McCarthy",
+        "Team": "MIN",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 265,
+        "id": 188,
+        "Overall": "Bo Nix (DEN - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Bo Nix",
+        "Team": "DEN",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 266,
+        "id": 187,
+        "Overall": "Bryce Young (CAR - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Bryce Young",
+        "Team": "CAR",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 267,
+        "id": 186,
+        "Overall": "Russell Wilson (PIT - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Russell Wilson",
+        "Team": "PIT",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 268,
+        "id": 185,
+        "Overall": "Daniel Jones (NYG - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Daniel Jones",
+        "Team": "NYG",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 269,
+        "id": 184,
+        "Overall": "Will Levis (TEN - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Will Levis",
+        "Team": "TEN",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 270,
+        "id": 183,
+        "Overall": "Derek Carr (NO - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Derek Carr",
+        "Team": "NO",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 271,
+        "id": 182,
+        "Overall": "Geno Smith (SEA - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Geno Smith",
+        "Team": "SEA",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 272,
+        "id": 181,
+        "Overall": "Aaron Rodgers (NYJ - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Aaron Rodgers",
+        "Team": "NYJ",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 273,
+        "id": 180,
+        "Overall": "Matthew Stafford (LAR - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Matthew Stafford",
+        "Team": "LAR",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 274,
+        "id": 179,
+        "Overall": "Kirk Cousins (ATL - QB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kirk Cousins",
+        "Team": "ATL",
+        "Position": "QB"
+    },
+    {
+        "player_rank": 275,
+        "id": 208,
+        "Overall": "Cincinnati Bengals (CIN - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Cincinnati Bengals",
+        "Team": "CIN",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 276,
+        "id": 209,
+        "Overall": "Green Bay Packers (GB - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Green Bay Packers",
+        "Team": "GB",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 277,
+        "id": 210,
+        "Overall": "Washington Commanders (WAS - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Washington Commanders",
+        "Team": "WAS",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 278,
+        "id": 226,
+        "Overall": "Curtis Samuel (BUF - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Curtis Samuel",
+        "Team": "BUF",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 279,
+        "id": 240,
+        "Overall": "Wan'Dale Robinson (NYG - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Wan'Dale Robinson",
+        "Team": "NYG",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 280,
+        "id": 239,
+        "Overall": "Josh Downs (IND - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Josh Downs",
+        "Team": "IND",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 281,
+        "id": 238,
+        "Overall": "Adonai Mitchell (IND - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Adonai Mitchell",
+        "Team": "IND",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 282,
+        "id": 237,
+        "Overall": "Kendrick Bourne (NE - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Kendrick Bourne",
+        "Team": "NE",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 283,
+        "id": 236,
+        "Overall": "Jahan Dotson (WAS - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jahan Dotson",
+        "Team": "WAS",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 284,
+        "id": 234,
+        "Overall": "Xavier Legette (CAR - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Xavier Legette",
+        "Team": "CAR",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 285,
+        "id": 233,
+        "Overall": "Dontayvion Wicks (GB - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Dontayvion Wicks",
+        "Team": "GB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 286,
+        "id": 232,
+        "Overall": "Darnell Mooney (ATL - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Darnell Mooney",
+        "Team": "ATL",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 287,
+        "id": 231,
+        "Overall": "Carolina Panthers (CAR - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Carolina Panthers",
+        "Team": "CAR",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 288,
+        "id": 230,
+        "Overall": "Adam Thielen (CAR - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Adam Thielen",
+        "Team": "CAR",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 289,
+        "id": 229,
+        "Overall": "DeMario Douglas (NE - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "DeMario Douglas",
+        "Team": "NE",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 290,
+        "id": 228,
+        "Overall": "Arizona Cardinals (ARI - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Arizona Cardinals",
+        "Team": "ARI",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 291,
+        "id": 227,
+        "Overall": "Tennessee Titans (TEN - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tennessee Titans",
+        "Team": "TEN",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 292,
+        "id": 225,
+        "Overall": "Los Angeles Rams (LAR - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Los Angeles Rams",
+        "Team": "LAR",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 293,
+        "id": 211,
+        "Overall": "Jacksonville Jaguars (JAC - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jacksonville Jaguars",
+        "Team": "JAC",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 294,
+        "id": 224,
+        "Overall": "Atlanta Falcons (ATL - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Atlanta Falcons",
+        "Team": "ATL",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 295,
+        "id": 223,
+        "Overall": "Chicago Bears (CHI - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Chicago Bears",
+        "Team": "CHI",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 296,
+        "id": 222,
+        "Overall": "Romeo Doubs (GB - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Romeo Doubs",
+        "Team": "GB",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 297,
+        "id": 221,
+        "Overall": "New England Patriots (NE - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "New England Patriots",
+        "Team": "NE",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 298,
+        "id": 220,
+        "Overall": "Khalil Shakir (BUF - WR)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Khalil Shakir",
+        "Team": "BUF",
+        "Position": "WR"
+    },
+    {
+        "player_rank": 299,
+        "id": 219,
+        "Overall": "Detroit Lions (DET - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Detroit Lions",
+        "Team": "DET",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 300,
+        "id": 218,
+        "Overall": "Denver Broncos (DEN - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Denver Broncos",
+        "Team": "DEN",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 301,
+        "id": 217,
+        "Overall": "Minnesota Vikings (MIN - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Minnesota Vikings",
+        "Team": "MIN",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 302,
+        "id": 216,
+        "Overall": "Las Vegas Raiders (LV - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Las Vegas Raiders",
+        "Team": "LV",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 303,
+        "id": 215,
+        "Overall": "Tampa Bay Buccaneers (TB - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Tampa Bay Buccaneers",
+        "Team": "TB",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 304,
+        "id": 214,
+        "Overall": "New Orleans Saints (NO - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "New Orleans Saints",
+        "Team": "NO",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 305,
+        "id": 213,
+        "Overall": "Seattle Seahawks (SEA - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Seattle Seahawks",
+        "Team": "SEA",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 306,
+        "id": 212,
+        "Overall": "New York Giants (NYG - DST)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "New York Giants",
+        "Team": "NYG",
+        "Position": "DST"
+    },
+    {
+        "player_rank": 307,
+        "id": 307,
+        "Overall": "Jase McClellan (ATL - RB)",
+        "Value": "$1",
+        "Price": 1,
+        "Name": "Jase McClellan",
+        "Team": "ATL",
+        "Position": "RB"
+    }
+]
