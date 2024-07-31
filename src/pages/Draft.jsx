@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 // import auctionValues from "../assets/fantasy-auction-values-2024.json";
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import StartingLineup from '../components/StartingLineup';
+import { RangeSlider } from 'flowbite-react';
 
 
 export default function Draft() {
@@ -14,6 +15,7 @@ export default function Draft() {
     const [filterPosition, setFilterPosition] = useState("ALL");
     const [searchParams, setSearchParams] = useSearchParams();
     const [showModal, setShowModal] = useState(false);
+    const [filterPrice, setFilterPrice] = useState(200);
     const navigate = useNavigate();
     useEffect(()=> {
         if (searchParams.has('platform')) {
@@ -40,12 +42,13 @@ export default function Draft() {
             top: 0,
             left: 0,
             alignItems: 'center',
-            width: '100%',
+            // width: '50%',
+            margin: "auto",
             opacity: 1,
             backgroundColor: '#242424',
             zIndex: 5,
             paddingBottom: 10,
-            // height: 400,
+            justifyContent: 'center'
         },
         viewRosterButtonDiv: {
             position: 'fixed',
@@ -163,7 +166,7 @@ export default function Draft() {
                 return false;
             }
         }
-        return currentAvailablePlayers.filter(isPlayerPosition);
+        return currentAvailablePlayers.filter(isPlayerPosition).filter((player) => (player.Price <= filterPrice));
     }
 
     const handleResetRosterClick = () => {
@@ -171,21 +174,28 @@ export default function Draft() {
         setRoster([]);
     }
 
+    const handlePriceRangeSliderChange = (event) => {
+        // console.log(event.target.value);
+        setFilterPrice(event.target.value);
+    }
+
     return (
         <>
-            <div id="sticky-header" style={styles.stickyHeader}>
+            <div className="w-screen">
+            <div id="sticky-header" style={styles.stickyHeader} className="max-w-72 justify-center">
                 <button style={styles.backButton} onClick={() => navigate(-1)}>←</button>
-                <h1 className="text-3xl font-bold underline pt-10">
+                <h1 className="text-md font-bold underline pt-10">
                     Mocktion Draft
                 </h1>
                 <br></br>
+
                 <div>
                     <p>Remaining Budget: {getRemainingBudget()}</p>
                 </div>
                 <br></br>
                 <label htmlFor="filter-position" className='block mb-2 text-lg font-medium text-gray-900 dark:text-white'>Filter by Position</label>
-                <select id="filter-position" className="text-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value={filterPosition} onChange={handleChangeFilterPosition}>
-                    <option className="text-lg" value="ALL">ALL</option>
+                <select id="filter-position" className="text0 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value={filterPosition} onChange={handleChangeFilterPosition}>
+                    <option className="text-lg" value="ALL">ALL</option>-lg bg-gray-5
                     <option className="text-lg" value="QB">QB</option>
                     <option className="text-lg" value="RB">RB</option>
                     <option className="text-lg" value="WR">WR</option>
@@ -194,6 +204,10 @@ export default function Draft() {
                     <option className="text-lg" value="K">K</option>
                     <option className="text-lg" value="DST">DST</option>
                 </select>
+                <div id="price-filter" className='pt-3'>
+                    <p>Set Filter Price: {filterPrice}</p>
+                    <RangeSlider defaultValue={200} min={1} max={200} onChange={handlePriceRangeSliderChange}/>
+                </div>
             </div>
             <div style={styles.currentAvailablePlayers} id="current-available-players">
                 {filteredAvailablePlayers().map((player) => (
@@ -222,7 +236,7 @@ export default function Draft() {
                 
                 <p className="pt-10">Take a screenshot of your team!</p>
             </div>}
-
+            </div>
         </>
     )
 }

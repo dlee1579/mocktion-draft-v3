@@ -136,10 +136,11 @@ export default function StartingLineup(props) {
                         <form onSubmit={handleSubmit}>
                             <p className="text-sm font-bold">Current Price: {playerToEdit && playerToEdit.Price}</p>
                             <br></br>
-                            <div >
-                                <Label htmlFor="new-price">New Price</Label>
-                                <br></br>
+                            <div className='flex gap-4 items-center'>
+                                <Label className='text-sm font-bold align-middle' htmlFor="new-price">New Price: </Label>
                                 <TextInput
+                                    className="text-sm font-bold"
+                                    sizing="sm"
                                     name='newPrice'
                                     id="new-price"
                                     type='number'

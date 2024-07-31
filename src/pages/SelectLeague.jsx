@@ -43,7 +43,7 @@ export default function SelectLeague() {
     }
 
     return <>
-        <div>
+        <div className="h-full">
             <h1 className="text-3xl font-bold underline">Mocktion Draft</h1>
             <br></br>
             <h1 className="text-3xl font-bold">🏈🏈</h1>
