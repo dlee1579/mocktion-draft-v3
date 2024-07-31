@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 // import auctionValues from "../assets/fantasy-auction-values-2024.json";
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import StartingLineup from '../components/StartingLineup';
-import { RangeSlider } from 'flowbite-react';
+import { RangeSlider, TextInput } from 'flowbite-react';
 
 
 export default function Draft() {
@@ -179,6 +179,10 @@ export default function Draft() {
         setFilterPrice(event.target.value);
     }
 
+    const handleFilterPriceInputChange = (event) => {
+        setFilterPrice(event.target.value);
+    }
+
     return (
         <>
             <div className="w-screen">
@@ -204,9 +208,13 @@ export default function Draft() {
                     <option className="text-lg" value="K">K</option>
                     <option className="text-lg" value="DST">DST</option>
                 </select>
-                <div id="price-filter" className='pt-3'>
+                <div id="price-filter" className='pt-3 justify-center'>
+                    {/* <div className="flex items-center">
+                        <p>Set Filter Price:</p>
+                        <TextInput className="max-w-16" onChange={handleFilterPriceInputChange} value={filterPrice} min={1} max={200}/>
+                    </div> */}
                     <p>Set Filter Price: {filterPrice}</p>
-                    <RangeSlider sizing="lg" defaultValue={200} min={1} max={200} onChange={handlePriceRangeSliderChange}/>
+                    <RangeSlider className='pt-4' sizing="xl" defaultValue={200} min={1} max={200} onChange={handlePriceRangeSliderChange} value={filterPrice}/>
                 </div>
             </div>
             <div style={styles.currentAvailablePlayers} id="current-available-players">
