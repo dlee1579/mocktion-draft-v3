@@ -206,7 +206,7 @@ export default function Draft() {
                 </select>
                 <div id="price-filter" className='pt-3'>
                     <p>Set Filter Price: {filterPrice}</p>
-                    <RangeSlider defaultValue={200} min={1} max={200} onChange={handlePriceRangeSliderChange}/>
+                    <RangeSlider sizing="lg" defaultValue={200} min={1} max={200} onChange={handlePriceRangeSliderChange}/>
                 </div>
             </div>
             <div style={styles.currentAvailablePlayers} id="current-available-players">
