@@ -56,7 +56,7 @@ export default function SelectLeague() {
                 <label htmlFor="platform" className="text-lg">Platform: </label>
                 <select name="platform" className="text-lg bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     <option className="text-lg" value="ESPN">ESPN</option>
-                    <option className="text-lg" value="NFL.com">NFL.com</option>
+                    <option className="text-lg" value="NFL-com">NFL.com</option>
                     <option className="text-lg" value="Yahoo">Yahoo</option>
                 </select>
                 <br></br>

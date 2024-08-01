@@ -13,19 +13,19 @@ export default function StartingLineup(props) {
 
     const [playerToEdit, setPlayerToEdit] = useState(null);
     // console.log(props);
-    const QBs = roster.filter((player) => player.Position === 'QB');
-    const RBs = roster.filter((player) => player.Position === "RB");
-    const WRs = roster.filter((player) => player.Position === "WR");
-    const TEs = roster.filter((player) => player.Position === "TE");
-    const Ks = roster.filter((player) => player.Position === "K");
-    const DSTs = roster.filter((player) => player.Position === "DST");
+    const QBs = roster.filter((player) => player.position === 'QB');
+    const RBs = roster.filter((player) => player.position === "RB");
+    const WRs = roster.filter((player) => player.position === "WR");
+    const TEs = roster.filter((player) => player.position === "TE");
+    const Ks = roster.filter((player) => player.position === "K");
+    const DSTs = roster.filter((player) => player.position === "DST");
 
-    QBs.sort((a, b) => b.Price - a.Price);
-    RBs.sort((a, b) => b.Price - a.Price);
-    WRs.sort((a, b) => b.Price - a.Price);
-    TEs.sort((a, b) => b.Price - a.Price);
-    Ks.sort((a, b) => b.Price - a.Price);
-    DSTs.sort((a, b) => b.Price - a.Price);
+    QBs.sort((a, b) => b.price - a.price);
+    RBs.sort((a, b) => b.price - a.price);
+    WRs.sort((a, b) => b.price - a.price);
+    TEs.sort((a, b) => b.price - a.price);
+    Ks.sort((a, b) => b.price - a.price);
+    DSTs.sort((a, b) => b.price - a.price);
 
     let QB1 = QBs ? QBs[0] : null;
     let RB1 = RBs ? RBs[0] : null;
@@ -55,7 +55,11 @@ export default function StartingLineup(props) {
             potentialFlexes.push(TEs[1]);
         }
 
-        return potentialFlexes.reduce((prev, current) => (prev && prev.Price > current.Price) ? prev : current, null)
+        return potentialFlexes.reduce((prev, current) => (prev && prev.price > current.price) ? prev : current, null)
+    };
+
+    const getPlayerOverallText = (player) => {
+        return `${player.name} (${player.team} - ${player.position})`
     };
 
     const getBench = () => {
@@ -73,7 +77,7 @@ export default function StartingLineup(props) {
     }
     const handleRemovePlayerFromRoster = (targetPlayer) => {
         logEvent(analytics, "remove_player_from_roster", {
-            player: targetPlayer.Overall,
+            player: getPlayerOverallText(targetPlayer)
         });
         setRoster(roster.filter((player) => player !== targetPlayer));
     }
@@ -85,7 +89,7 @@ export default function StartingLineup(props) {
         // console.log(player);
         return <>
             <div onClick={() =>handlePlayerInfoClick(player)}>
-                {player ? `${player.Overall}: $${player.Price}` : ""}
+                {player ? `${getPlayerOverallText(player)}: $${player.price}` : ""}
             </div>
         </>
         
@@ -100,21 +104,21 @@ export default function StartingLineup(props) {
         
         setRoster(roster.map((player) =>
             player.id === playerToEdit.id
-            ? {...player, Price: newPrice, Value: `$${newPrice}`}
+            ? {...player, price: newPrice}
             : player
         ))
 
         let temp = currentAvailablePlayers.map((player) =>
             player.id === playerToEdit.id
-            ? {...player, Price: newPrice, Value: `$${newPrice}`}
+            ? {...player, price: newPrice}
             : player
         )
-        temp.sort((a,b) => b.Price - a.Price);
+        temp.sort((a,b) => b.price - a.price);
         logEvent(analytics, "edit_player_price",
             {
-                name: playerToEdit.Name,
+                name: playerToEdit.name,
                 price: newPrice,
-                name_price: `${playerToEdit.Name}: ${newPrice}`,
+                name_price: `${playerToEdit.name}: ${newPrice}`,
             }
         );
         setCurrentAvailablePlayers(temp);
@@ -130,11 +134,11 @@ export default function StartingLineup(props) {
     return <>
         <div className='justify-evenly'>
             <Modal className='justify-center items-center py-40' show={showModal} onClose={handleCloseModal}>
-                <Modal.Header>{playerToEdit && playerToEdit.Overall}</Modal.Header>
+                <Modal.Header>{playerToEdit && getPlayerOverallText(playerToEdit)}</Modal.Header>
                 <Modal.Body>
                     <div>
                         <form onSubmit={handleSubmit}>
-                            <p className="text-sm font-bold">Current Price: {playerToEdit && playerToEdit.Price}</p>
+                            <p className="text-sm font-bold">Current Price: {playerToEdit && playerToEdit.price}</p>
                             <br></br>
                             <div className='flex gap-4 items-center'>
                                 <Label className='text-sm font-bold align-middle' htmlFor="new-price">New Price: </Label>
@@ -147,7 +151,7 @@ export default function StartingLineup(props) {
                                     min={1}
                                     max={200}
                                     step={1}
-                                    defaultValue={playerToEdit && playerToEdit.Price}
+                                    defaultValue={playerToEdit && playerToEdit.price}
                                 />
                             </div>
                             <Button className='mt-6' type="submit">Submit</Button>
@@ -248,32 +252,32 @@ export default function StartingLineup(props) {
                     </tr>
                     <tr>
                         <td>BCH</td>
-                        <td>{getBench().length >= 1 && `${getBench()[0].Overall}: ${getBench()[0].Value}`}</td>
+                        <td>{getBench().length >= 1 && `${getPlayerOverallText(getBench()[0])}: $${getBench()[0].price}`}</td>
                         <td>{getBench().length >= 1 && <button onClick={() => handleRemovePlayerFromRoster(getBench()[0])} style={styles.removeCurrentRosterPlayerButton}>X</button>}</td>
                     </tr>
                     <tr>
                         <td>BCH</td>
-                        <td>{getBench().length >= 2 && `${getBench()[1].Overall}: ${getBench()[1].Value}`}</td>
+                        <td>{getBench().length >= 2 && `${getPlayerOverallText(getBench()[1])}: $${getBench()[1].price}`}</td>
                         <td>{getBench().length >= 2 && <button onClick={() => handleRemovePlayerFromRoster(getBench()[1])} style={styles.removeCurrentRosterPlayerButton}>X</button>}</td>
                     </tr>
                     <tr>
                         <td>BCH</td>
-                        <td>{getBench().length >= 3 && `${getBench()[2].Overall}: ${getBench()[2].Value}`}</td>
+                        <td>{getBench().length >= 3 && `${getPlayerOverallText(getBench()[2])}: $${getBench()[2].price}`}</td>
                         <td>{getBench().length >= 3 && <button onClick={() => handleRemovePlayerFromRoster(getBench()[2])} style={styles.removeCurrentRosterPlayerButton}>X</button>}</td>
                     </tr>
                     <tr>
                         <td>BCH</td>
-                        <td>{getBench().length >= 4 && `${getBench()[3].Overall}: ${getBench()[3].Value}`}</td>
+                        <td>{getBench().length >= 4 && `${getPlayerOverallText(getBench()[3])}: $${getBench()[3].price}`}</td>
                         <td>{getBench().length >= 4 && <button onClick={() => handleRemovePlayerFromRoster(getBench()[3])} style={styles.removeCurrentRosterPlayerButton}>X</button>}</td>
                     </tr>
                     <tr>
                         <td>BCH</td>
-                        <td>{getBench().length >= 5 && `${getBench()[4].Overall}: ${getBench()[4].Value}`}</td>
+                        <td>{getBench().length >= 5 && `${getPlayerOverallText(getBench()[4])}: $${getBench()[4].price}`}</td>
                         <td>{getBench().length >= 5 && <button onClick={() => handleRemovePlayerFromRoster(getBench()[4])} style={styles.removeCurrentRosterPlayerButton}>X</button>}</td>
                     </tr>
                     <tr>
                         <td>BCH</td>
-                        <td>{getBench().length >= 6 && `${getBench()[5].Overall}: ${getBench()[5].Value}`}</td>
+                        <td>{getBench().length >= 6 && `${getPlayerOverallText(getBench()[5])}: $${getBench()[5].price}`}</td>
                         <td>{getBench().length >= 6 && <button onClick={() => handleRemovePlayerFromRoster(getBench()[5])} style={styles.removeCurrentRosterPlayerButton}>X</button>}</td>
                     </tr>
                 </tbody>

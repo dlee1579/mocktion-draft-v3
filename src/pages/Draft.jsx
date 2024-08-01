@@ -3,12 +3,12 @@ import { useState, useEffect } from 'react'
 // import auctionValues from "../assets/fantasy-auction-values-2024.json";
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import StartingLineup from '../components/StartingLineup';
-import { RangeSlider, TextInput } from 'flowbite-react';
+import { RangeSlider } from 'flowbite-react';
 
 
 export default function Draft() {
     const analytics = getAnalytics();
-    // auctionValues.sort((a, b) => b.Price - a.Price)
+    // auctionValues.sort((a, b) => b.price - a.price)
     const [currentAvailablePlayers, setCurrentAvailablePlayers] = useState([]);
     const [roster, setRoster] = useState([]);
     const [hideRoster, setHideRoster] = useState(true);
@@ -22,7 +22,7 @@ export default function Draft() {
             import(`../data/fantasy-auction-values-2024-${searchParams.get("platform")}.json`)
                 .then((res) => {
                     let temp = res.default;
-                    temp.sort((a,b) => b.Price - a.Price);
+                    temp.sort((a,b) => b.price - a.price);
                     setCurrentAvailablePlayers(res.default);
                 })
         }
@@ -110,16 +110,20 @@ export default function Draft() {
         setHideRoster(false);
     }
 
+    const getPlayerOverallText = (player) => {
+        return `${player.name} (${player.team} - ${player.position})`
+    }
+
     const handleAvailablePlayerClick = (targetPlayer) => {
         // toggle behavior: if player is on roster, remove them. if player is not on roster, add them
         if (isOnRoster(targetPlayer)) {
             logEvent(analytics, "remove_player_from_roster", {
-                player: targetPlayer.Overall,
+                player: getPlayerOverallText(targetPlayer),
             });
             setRoster(roster.filter((player) => player !== targetPlayer));
         } else {
             logEvent(analytics, "add_player_to_roster", {
-                player: targetPlayer.Overall,
+                player: getPlayerOverallText(targetPlayer),
             });
             setRoster([...roster, targetPlayer]);
         }
@@ -132,7 +136,7 @@ export default function Draft() {
     const getRemainingBudget = () => {
         let currentSpend = 0;
         roster.forEach((player) => {            
-            currentSpend += player.Price;
+            currentSpend += player.price;
         });
         return 200 - currentSpend;
     }
@@ -148,25 +152,25 @@ export default function Draft() {
         const isPlayerPosition = (player) => {
             if (filterPosition === "ALL") {
                 return true;
-            } else if (filterPosition === "QB" && player.Position === "QB") {
+            } else if (filterPosition === "QB" && player.position === "QB") {
                 return true;
-            } else if (filterPosition === "RB" && player.Position === "RB") {
+            } else if (filterPosition === "RB" && player.position === "RB") {
                 return true;
-            } else if (filterPosition === "WR" && player.Position === "WR") {
+            } else if (filterPosition === "WR" && player.position === "WR") {
                 return true;
-            } else if (filterPosition === "TE" && player.Position === "TE") {
+            } else if (filterPosition === "TE" && player.position === "TE") {
                 return true;
-            } else if (filterPosition === "FLEX" && (player.Position === "RB" || player.Position === "WR" || player.Position === "TE")) {
+            } else if (filterPosition === "FLEX" && (player.position === "RB" || player.position === "WR" || player.position === "TE")) {
                 return true;
-            } else if (filterPosition === "K" && player.Position === "K") {
+            } else if (filterPosition === "K" && player.position === "K") {
                 return true;
-            } else if (filterPosition === "DST" && player.Position === "DST") {
+            } else if (filterPosition === "DST" && player.position === "DST") {
                 return true;
             } else {
                 return false;
             }
         }
-        return currentAvailablePlayers.filter(isPlayerPosition).filter((player) => (player.Price <= filterPrice));
+        return currentAvailablePlayers.filter(isPlayerPosition).filter((player) => (player.price <= filterPrice));
     }
 
     const handleResetRosterClick = () => {
@@ -175,11 +179,6 @@ export default function Draft() {
     }
 
     const handlePriceRangeSliderChange = (event) => {
-        // console.log(event.target.value);
-        setFilterPrice(event.target.value);
-    }
-
-    const handleFilterPriceInputChange = (event) => {
         setFilterPrice(event.target.value);
     }
 
@@ -209,18 +208,14 @@ export default function Draft() {
                     <option className="text-lg" value="DST">DST</option>
                 </select>
                 <div id="price-filter" className='pt-3 justify-center'>
-                    {/* <div className="flex items-center">
-                        <p>Set Filter Price:</p>
-                        <TextInput className="max-w-16" onChange={handleFilterPriceInputChange} value={filterPrice} min={1} max={200}/>
-                    </div> */}
                     <p>Set Filter Price: {filterPrice}</p>
-                    <RangeSlider className='pt-4' sizing="xl" defaultValue={200} min={1} max={200} onChange={handlePriceRangeSliderChange} value={filterPrice}/>
+                    <RangeSlider className='pt-4' sizing="xl" min={1} max={200} onChange={handlePriceRangeSliderChange} value={filterPrice}/>
                 </div>
             </div>
             <div style={styles.currentAvailablePlayers} id="current-available-players">
                 {filteredAvailablePlayers().map((player) => (
                     <div onClick={() => handleAvailablePlayerClick(player)} style={styles.availablePlayer} key={player.id}>
-                        <p>{player.Overall}: {player.Value} {isOnRoster(player) && <span style={{ color: '#AAFF00' }}>&#10003;</span>}</p>
+                        <p>{getPlayerOverallText(player)}: ${player.price} {isOnRoster(player) && <span style={{ color: '#AAFF00' }}>&#10003;</span>}</p>
                     </div>
                 ))}
             </div>
